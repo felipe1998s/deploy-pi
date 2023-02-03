@@ -17,10 +17,6 @@ export const getPokemons = () =>{
     return function(dispatch){
         axios.get("/pokemons")
         .then((res)=>dispatch({type:GET_POKEMONS,payload:res.data}))
-        .catch((error)=>{
-            alert("error:", error)
-            dispatch({type:GET_POKEMONS,payload:[]})
-        })
     };
 };
 
