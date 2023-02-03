@@ -1,0 +1,111 @@
+.detailConteiner{
+    /* display:flow-root; */
+    display: flex;
+    background: rgb(70,70,70,0.7);
+    border-radius: 20px;
+    border: 1px solid white;
+    height:fit-content;
+    width: fit-content;
+    /* padding: 15px; */
+    margin: 5px;
+    font-size: 12px;
+}
+.img{
+    /* border: 4px solid black; */
+    border-radius: 0 0 0 30px;
+    /* background-color: black; */
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+}
+
+.header{
+    background:rgb(0,0,0,0.9);
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.DivStats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.stats{
+    background-color:orange;
+    border-radius: 15px;
+    padding: 3px;
+    justify-content: center;
+    width: 200px;
+}
+
+.name{
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 3px;
+    justify-content: center;
+}
+
+.typesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+    padding: 2px;
+    height: 284px;
+}
+
+
+.type{
+    background-color: blue;
+    border-radius: 12px;
+    color: black;
+    padding: 4px;
+    width: 200px;
+}
+
+.divDelete{
+    display: flex;
+    flex-direction: column;
+    padding: 23px 0 10px 0;
+    gap: 2.5em;
+}
+.delete{
+    background-color: red;
+    border: 2px solid #1a0000;
+    border-radius: 30px;
+    height: fit-content;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    box-shadow: #380101 2px 2px 0 0;
+    color: #422800;
+    color: white;
+}
+
+.update{
+    background-color: green;
+    border: 2px solid #1a0000;
+    border-radius: 30px;
+    height: fit-content;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    box-shadow: #380101 2px 2px 0 0;
+    color: #422800;
+    color: white;
+}
+
+ 
+.delete:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.update:hover{
+    background-color: #fff;
+    color: #380101;
+}
+
+
