@@ -3,7 +3,7 @@ import {Landing,Home,Form,Detail} from './views';
 import { BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom';
 import NotFound from './views/NotFound/NotFound';
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "deploy-production-4074.up.railway.app";
 
 function App() {
 
