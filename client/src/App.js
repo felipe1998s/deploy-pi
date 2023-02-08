@@ -3,7 +3,7 @@ import {Landing,Home,Form,Detail} from './views';
 import { BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom';
 import NotFound from './views/NotFound/NotFound';
 import axios from "axios";
-axios.defaults.baseURL = "deploy-pi-production-c2d1.up.railway.app"; 
+axios.defaults.baseURL = "https://deploy-pi-production-c2d1.up.railway.app"; 
 
 function App() {
 
