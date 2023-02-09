@@ -21,12 +21,9 @@ export const getPokemons = () =>{
 };
 
 export const getPokemonById = (id) => {
-    return function(dispatch){
-        // const serverData = await 
+    return function(dispatch){ 
         axios.get(`/pokemons/${id}`)
         .then((res)=>dispatch({type:GET_POKEMON_BY_ID,payload:res.data}));
-        // const pokemonDetails = serverData.data;
-        //dispatch({type:GET_POKEMON_BY_ID,payload:pokemonDetails});
     }
 }
 
